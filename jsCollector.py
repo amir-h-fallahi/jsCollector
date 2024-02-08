@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3
 
 from bs4 import BeautifulSoup
 import re
