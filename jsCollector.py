@@ -62,7 +62,7 @@ def htmlParser(html: str,baseUrl=None):
 	scripts = bs.findAll('script')
 	for script in scripts :
 		try :
-			jsFiles.add(script['src']) if validateJS(script['src']) else None
+			jsFiles.add(script['src'])
 		except KeyError:
 			pass
 
